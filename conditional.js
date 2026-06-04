@@ -77,24 +77,3 @@ switch(condition or exp){
     }
 }
 */
-
-let day ='tue';
-
-switch(day){
-    case 'mon':{
-        console.log('1st day of the week');
-        break;
-    }
-    case 'tue':{
-        console.log('2nd day ');
-        break;
-    }
-    case 'wed':{
-        console.log('3rd day');
-        break;
-    }
-    default:{
-        console.log('May be thur or fri or sat or sun');
-        break;
-    }
-}
